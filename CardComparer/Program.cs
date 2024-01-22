@@ -37,7 +37,7 @@ namespace CardComparer
         {
             foreach (var card in cards)
             {
-                Console.WriteLine(card.Name);
+                Console.WriteLine(card);
             }
         }
     }

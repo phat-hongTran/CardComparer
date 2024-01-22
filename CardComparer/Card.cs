@@ -7,6 +7,11 @@
 
         public readonly string Name;
 
+        public override string ToString()
+        {
+            return Name;
+        }
+
         public Card( Values value, Suits suit)
         {
             this.Value = value;
